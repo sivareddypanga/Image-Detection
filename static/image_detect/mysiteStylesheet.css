@@ -1,0 +1,129 @@
+body {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
+li{
+
+    /*padding-left: 10px;*/
+    padding-right: 10px;
+}
+
+h5{
+    border-bottom: 1px solid black;
+
+}
+
+a:link{
+
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: blink;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: steelblue;
+
+}
+.navbar{
+
+    border-radius: 0px;
+}
+.main_content{
+
+
+    background-color: white;
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+
+}
+
+.image{
+    float: left;
+    height: 70px;
+    padding: 10px;
+
+}
+
+.list-unstyled li {
+
+    padding-top: 10px;
+    display: inline-block;
+
+}
+
+#navbar_position{
+
+}
+
+
+#left_side_pic{
+
+    min-height: 150px;
+    margin: 15px 10px 0px 10px;
+    background-image: url("images/uc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#left_side_intro{
+
+    background-color: white;
+    border-top: ridge;
+    border-top-color: darkgrey;
+    border-width: 0.1px;
+    height: 250px;
+    margin: 0px 10px 10px 10px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#image_position{
+
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(50%);
+}
+
+
+
+#footer_container{
+
+    text-align: center;
+    color: black;
+}
+
+#linkedin_image{
+    height: 18px;
+    float: left;
+}
+
+#hotmail_image{
+    height: 18px;
+    float: left;
+    margin-right: 2px;
+
+}
+
+#github_image{
+
+    height: 18px;
+    float: left;
+    margin-right: 2px;
+
+}
+

@@ -1,0 +1,9 @@
+{% extends 'image_detect/base.html' %}
+{% block content %}
+    <h4>Upload your Images</h4>
+    <form action="/results">
+    <input type="text" placeholder="Select a folder">
+    <input type="Submit" value="Browse"><br><br>
+    <input type="Submit" value="Upload">
+    </form>
+{% endblock %}
